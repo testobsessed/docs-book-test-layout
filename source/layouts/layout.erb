@@ -21,6 +21,9 @@
 </head>
 
 <body class="<%= page_classes %>">
+  <h1>LAST MOD:
+    <%= modified_date "%M %d, %Y" %>
+  </h1>
   <%= yield_for_subnav %>
 
   <%= yield %>
